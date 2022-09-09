@@ -2,9 +2,10 @@
 import random
 from playsound import playsound
 
-# Picks an gong gong iamge and sound
-gong_gong_image_int = random.randint(1,6)
-gong_gong_image_pick = 'gong_gong_image_lib/gong_' + str(gong_gong_image_int) + '.txt'
+# Picks an gong gong iamge and sound (7 is danger lel)
+gong_gong_rand_int =  random.randint(1,7)
+gong_gong_image_pick = 'gong_gong_image_lib/gong_' + str(gong_gong_rand_int) + '.txt'
+gong_gong_gong_pick = 'gong_gong_gong_lib/gong_' + str(gong_gong_rand_int) + '.wav'
 
 # Opens the gong gong image
 f = open(gong_gong_image_pick, 'r')
