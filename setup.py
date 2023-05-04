@@ -11,10 +11,5 @@ setup(
     url='https://github.com/Arkenbrien/py_gong_gong',
     author='Rhett Huston',
     packages=find_packages(),
-    install_requires=['random', 'playsound'],
-    classifiers=[
-        "Development Status :: Complete",  
-        "Operating System :: UBUNTU 18.04 :: Linux",
-        "Programming Language :: Python :: 3"
-    ],
+    install_requires=['random', 'playsound']
 )
