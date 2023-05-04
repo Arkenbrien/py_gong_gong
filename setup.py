@@ -1,17 +1,20 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
+VERSION = '1.0.0'
+DESCRIPTION = 'GONG GONG'
+LONG_DESCRIPTION = 'GONG GONG GONG GONG'
 
 setup(
     name='py_gong_gong',
-    version='1.0.0',    
-    description='GONG GONG',
+    version=VERSION,    
+    description=DESCRIPTION,
     url='https://github.com/Arkenbrien/py_gong_gong',
     author='Rhett Huston',
-    packages=['py_gong_gong'],
-    install_requires=['random',
-                      'playsound'],
+    packages=find_packages(),
+    install_requires=['random', 'playsound'],
     classifiers=[
-        'Development Status :: 3 - Complete',  
-        'Operating System :: UBUNTU 18.04 :: Linux',
-        'Programming Language :: Python :: 3'
+        "Development Status :: Complete",  
+        "Operating System :: UBUNTU 18.04 :: Linux",
+        "Programming Language :: Python :: 3"
     ],
 )
