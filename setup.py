@@ -11,7 +11,7 @@ setup(
                       'playsound'],
     classifiers=[
         'Development Status :: 3 - Complete',  
-        'Operating System :: POSIX :: Linux',
+        'Operating System :: UBUNTU 18.04 :: Linux',
         'Programming Language :: Python :: 3'
     ],
 )
