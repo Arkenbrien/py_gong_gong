@@ -1,9 +1,5 @@
 README.md
 setup.py
-dist/py_gong_gong-1.0.0-py3-none-any.whl
-dist/py_gong_gong-1.0.0.tar.gz
-dist/py_gong_gong-1.0.1-py3-none-any.whl
-dist/py_gong_gong-1.0.1.tar.gz
 libname/gong_gong.py
 libname/gong_gong_gong_lib/gong_1.wav
 libname/gong_gong_gong_lib/gong_2.wav
