@@ -11,5 +11,8 @@ setup(
     url='https://github.com/Arkenbrien/py_gong_gong',
     author='Rhett Huston',
     packages=find_packages(),
-    install_requires=['random', 'playsound']
+    install_requires=['random', 'playsound'],
+    classifiers=[
+        'Development Status :: 6 - Mature'
+    ],
 )
