@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 DESCRIPTION = 'GONG GONG'
 LONG_DESCRIPTION = 'GONG GONG GONG GONG'
 
